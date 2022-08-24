@@ -1,9 +1,6 @@
-/***  FONTS ***/
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
-
-/***  VARIABLES & THEMES ***/
 
 :root {
   --primary-color: #cf0f0f;
@@ -58,8 +55,6 @@
 .dark-theme .invert-element {
   transform: rotateZ(180deg) scaleX(-1);
 }
-
-/***  GENERIC STYLES ***/
 
 * {
   margin: 0;
@@ -145,8 +140,6 @@ textarea:focus-visible {
   border-color: black;
 }
 
-/*** HEADER STYLES ***/
-
 header {
   background-color: var(--header-background-color);
   min-height: 850px;
@@ -194,8 +187,6 @@ header::before {
   color: var(--primary-color-contrast);
 }
 
-/*** WORLD CHARACTERS STYLES ***/
-
 .world-characters {
   width: 100%;
   max-width: 900px;
@@ -222,15 +213,11 @@ header::before {
   -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
 }
 
-/*** SECTIONS STYLES ***/
-
 section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 95px;
 }
-
-/* Section 01 - Inverted World */
 
 .container {
   max-width: 1200px;
@@ -276,8 +263,6 @@ section {
   border-image-slice: 10;
 }
 
-/* Section 03 - Stranger Things Gallery */
-
 #section-stranger-things-gallery {
   width: 100%;
   background: var(--background-lamp-image) 120% / 50% no-repeat;
@@ -312,8 +297,6 @@ section {
   object-fit: cover;
   border: 10px solid var(--highlight-color);
 }
-
-/* Section 04 - Dungeons & Dragons Form */
 
 #section-form {
   flex-direction: column;
@@ -384,8 +367,6 @@ section {
   background-color: var(--primary-color-contrast);
   color: var(--field-background-color);
 }
-
-/*** FOOTER STYLES ***/
 
 footer {
   padding: 60px 0;
