@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="400" src="https://micheleambrosio.github.io/semana-frontend-mundo-invertido/assets/images/banner/logo.svg">
+    <img width="400" src="https://jesserds.github.io/stranger-things/assets/images/banner/logo.svg">
 </p>
 
 -------
