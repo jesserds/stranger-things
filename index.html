@@ -24,6 +24,17 @@
         </p>
         <button id="switch-theme-button" onclick="switchTheme()">Inverter Mundos</button>
       </div>
+      
+      <style>
+        .invert-element {
+          transition: all 0.5s;
+          cursor: pointer;
+        }
+        .invert-element:hover {
+          -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+        }
+      </style> 
 
       <div id="top-characters" class="world-characters"></div>
     </header>
